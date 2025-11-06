@@ -4495,7 +4495,7 @@ issues:
   # Default: false
   whole-files: true
 
-  # Fix found issues (if it's supported by the linter).
+  # Fix found issues (if it's supported by the linter) and run the formatters.
   # Default: false
   fix: true
 
