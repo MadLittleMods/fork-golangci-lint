@@ -111,7 +111,7 @@ func newRunCommand(logger logutils.Log, info BuildInfo) *runCommand {
 
 	runCmd := &cobra.Command{
 		Use:                "run",
-		Short:              "Lint and format the code.",
+		Short:              "Lint the code (will lint and format with --fix).",
 		Run:                c.execute,
 		PreRunE:            c.preRunE,
 		PostRun:            c.postRun,
